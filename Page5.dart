@@ -5,10 +5,10 @@ class Page5 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Page 3'),
+        title: Text('Page 5'),
       ),
       body: Center(
-        child: Text('This is Page 3'),
+        child: Text('This is Page 5'),
       ),
     );
   }
