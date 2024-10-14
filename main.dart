@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:midterm_app/Page.2.dart';
+import 'package:midterm_app/Page2.dart';
 import 'package:midterm_app/Page1.dart';
 import 'package:midterm_app/Page3.dart';
 import 'package:midterm_app/Page4.dart';
@@ -59,33 +59,33 @@ class HomePage extends StatelessWidget {
             ),
             SizedBox(height: 15),
             MenuButton(
-              icon: Icons.account_circle,
+              icon: Icons.history,
               caption: 'History',
               routeName: '/page2',
             ),
             SizedBox(height: 15),
             MenuButton(
-              icon: Icons.food_bank,
-              caption: 'Food',
+              icon: Icons.account_circle,
+              caption: 'Medication Name',
               routeName: '/page3',
             ),
             SizedBox(height: 15),
             MenuButton(
-              icon: Icons.fitness_center,
-              caption: 'Fitness',
+              icon: Icons.perm_device_information,
+              caption: 'Profile Information',
               routeName: '/page4',
             ),
             SizedBox(height: 15),
             MenuButton(
-              icon: Icons.chat,
-              caption: 'Open chat',
+              icon: Icons.food_bank,
+              caption: 'Meal & Calories ',
               routeName: '/page5',
             ),
             SizedBox(height: 15),
             MenuButton(
-              icon: Icons.store,
-              caption: 'Store',
-              routeName: '/page4',
+              icon: Icons.book,
+              caption: 'Meal Page',
+              routeName: '/page6',
             ),
           ],
         ),
@@ -147,4 +147,3 @@ class BlankPage extends StatelessWidget {
     );
   }
 }
-
